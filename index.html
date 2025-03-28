@@ -2,69 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!--HEADER START-->
     <header>
-        <!--NAV START-->
         <nav>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <div class="apps-icon-container">
-                <img class="apps-icon" src="images/application.svg" alt="apps-icon">
-            </div>
-            <button class="btn-sign">Sign in</button>
+          <div class="nav-links">
+             <a href="#">Gmail</a>
+             <a href="#">Images</a>
+          </div>
+          <div class="nav-apps-btn">
+             <div class="apps-icon-container">
+                <img src="images/app-icon.png" alt="bar-icon" class="apps-icon">
+             </div>
+             <button class="sign-in">Sign in</button>
+          </div>
         </nav>
-        <!--NAV END-->
-    </header>
-    <!--HEADER END-->
+      </header>
 
-    <!--MAIN START-->
-    <main>
-        <img class="google-logo" src="images/google-logo.svg" alt="google-logo">
-        <div class="search-box">
+      <main>
+          <img src="images/google-logo.png" alt="logo-google" class="logo-img">
+          <div class="search-box">
             <img class="search-icon" src="images/searchicon.png" alt="search-icon">
-            <input type="text">
-            <img class="search-lens" src="images/google_lens.svg" alt="google-lens-icon">
-        </div>
-        <div class="search-buttons">
+            <label for="search-input"></label>
+            <input type="text" id="search-input">
+            <img class="search-mic" src="images/google_mic_icon.png" alt="google-mic-icon">
+            <img class="search-lens" src="./images/google_lens_icon.png" alt="google-lens-icon">
+          </div>
+          <div class="main-btns">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
-        </div>
-        <div class="languages">
-            Google offered in:
-            <a href="#">српски</a>
-            <a href="#">srpski</a>
-        </div>
-    </main>
-    <!--MAIN END-->
+          </div>
+          <p class="languages">Google offered in: <a href="#">srpski</a></p>
+      </main>
 
-    <!--FOOTER START-->
-    <footer>
-        <div class="row-1">
-            Serbia
+      <footer>
+        <div class="footer-top">
+          <span>Serbia</span>
         </div>
-        <div class="row-2">
-            <ul class="left-menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search works</a></li>
-            </ul>
-
-            <ul class="right-menu">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+              <a href="#">About</a>
+              <a href="#">Advertising</a>
+              <a href="#">Business</a>
+              <a href="#">How Search works</a>
+          </div>
+          <div class="footer-bottom-right">
+              <a href="#">Privacy</a>
+              <a href="#">Terms</a>
+              <a href="#">Settings</a>
+          </div>
         </div>
-    </footer>
-    <!--FOOTER END-->
+      </footer>
 </body>
 </html>
